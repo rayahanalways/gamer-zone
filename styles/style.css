@@ -256,6 +256,17 @@ nav a {
     width: 50%;
 }
 
+.online-game-photo {
+    position: relative;
+}
+
+.sub-photo {
+    width: 30%;
+    position: absolute;
+    bottom: -15%;
+    right: 5%;
+}
+
 .online-title {
     color: #0B0223;
     font-size: 3rem;
@@ -268,6 +279,7 @@ nav a {
     font-size: 1rem;
     font-weight: 400;
 }
+
 
 
 
@@ -319,7 +331,8 @@ nav a {
 @media screen and (max-width: 576px) {
 
     nav,
-    nav ul {
+    nav ul,
+    .online {
         flex-direction: column;
         padding: 10px;
         gap: 30px;
@@ -351,5 +364,11 @@ nav a {
         flex-direction: column;
     }
 
+    .online-content {
+        text-align: center;
+    }
 
+    .online-game-photo {
+        padding-left: 30px;
+    }
 }
