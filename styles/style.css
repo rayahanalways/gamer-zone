@@ -12,6 +12,11 @@ img {
     max-width: 100%;
 }
 
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 /* nav styles  */
 
 nav {
@@ -71,10 +76,6 @@ nav a {
 }
 
 /* banner styles  */
-.banner {
-    margin-bottom: 50px;
-}
-
 .banner-img {
     width: 40%;
 }
@@ -106,6 +107,7 @@ nav a {
     background-position: right;
     background-repeat: no-repeat;
     padding: 150px;
+
 }
 
 .banner-text {
@@ -139,9 +141,69 @@ nav a {
     padding: 10px 15px;
     border-radius: 20px;
 }
-.banner-button{
+
+.banner-button {
     margin-top: 30px;
 }
+
+/* gamer section styles  */
+.gamer-img {
+    width: 100%;
+}
+
+.gamer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gamer-content {
+    text-align: right;
+    padding: 100px;
+}
+
+.gamer-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+
+}
+
+.gamer-description {
+    color: #534c64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.gamer-button {
+    padding: 10px 15px;
+    background-color: #FF42A5;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+}
+
+.subtitle {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.our-purpose {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+/* banner styles end  */
 /* responsive styles  */
 
 /* tablet device  */
@@ -156,6 +218,13 @@ nav a {
 
     .banner-img {
         width: 100%;
+    }
+    .gamer-section{
+        flex-direction: column-reverse;
+    }
+    .gamer-content{
+        padding: 20px;
+        text-align: center;
     }
 
 }
@@ -184,8 +253,13 @@ nav a {
     .banner-img {
         width: 100%;
     }
-
-
+    .gamer-section{
+        flex-direction: column-reverse;
+    }
+    .gamer-content{
+        padding: 20px;
+        text-align: center;
+    }
 
 
 }
