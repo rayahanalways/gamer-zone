@@ -244,7 +244,7 @@ nav a {
 .online {
     display: flex;
     align-items: center;
-    margin: 100px 0 200px 0;
+    margin: 100px 0 100px 0;
 
 }
 
@@ -280,7 +280,53 @@ nav a {
     font-weight: 400;
 }
 
+/* careers section styles  */
+.careers {
+    background-color: #FF42A5;
+    display: flex;
+    align-items: center;
+}
 
+.careers-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.careers-content {
+    width: 50%;
+    padding: 50px 100px 0 100px;
+}
+
+.inner-content {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.careers-description {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.first-content,
+.second-content {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.careers-button {
+    padding: 12px 20px;
+    background: #fff;
+    margin-top: 32px;
+    border: 0;
+    border-radius: 20px;
+
+}
 
 
 
@@ -321,6 +367,13 @@ nav a {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .careers {
+        flex-direction: column;
+    }
+
+
+
 
 
 }
@@ -371,4 +424,25 @@ nav a {
     .online-game-photo {
         padding-left: 30px;
     }
+
+    .careers {
+        flex-direction: column;
+    }
+
+    .careers-content {
+        padding: 10px;
+        width: 80%;
+    }
+
+    .second-child {
+        tex-align: right;
+    }
+
+    .careers-button {
+        margin-bottom: 30px;
+    }
+
+
+
+
 }
